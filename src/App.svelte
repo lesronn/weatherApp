@@ -387,6 +387,7 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      background-position: center center;
       box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
       z-index: 2;
     }
