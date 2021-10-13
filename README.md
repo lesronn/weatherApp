@@ -1,1 +1,3 @@
-<p align="center"> # Weather App with Geolocation</p>
+# Weather App with Geolocation
+
+Simple weather app using Sveltejs
