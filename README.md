@@ -1,1 +1,1 @@
-# Weather App with svelte js
+<p align="center">Weather App with Geolocation</p>
