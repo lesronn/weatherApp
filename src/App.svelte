@@ -163,7 +163,6 @@
       <section class="m-body">
         <div class="m-content">
           <b class="m-city">{city}</b>
-          <!-- <p class="m-date">{dt}</p> -->
           <b class="m-temp">{temperature}</b>
           <div class="m-description">
             <img src={descIcon} alt="" />
@@ -382,18 +381,20 @@
       height: 100vh;
       border-radius: 0px !important;
       display: grid;
-      grid-template-rows: 7% auto 20% 7%;
+      grid-template-rows: 7% 66% 20% 7%;
       overflow: hidden !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
       background-position: center center;
-      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
       z-index: 2;
     }
     #header {
       display: grid;
       text-align: center;
+      height: 100%;
+      width: 100%;
       grid-template-columns: 85% auto;
       align-items: center;
       border-bottom: 1.5px solid rgb(218, 218, 218);
@@ -440,6 +441,8 @@
       display: grid;
       align-items: center;
       color: white;
+      height: 100%;
+      width: 100%;
     }
 
     .m-weather {
@@ -470,7 +473,6 @@
     .m-searchbar {
       display: grid;
       width: 100%;
-
       grid-template-columns: 80% auto;
       grid-column-gap: 10px;
       justify-content: center;
