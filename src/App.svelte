@@ -202,7 +202,7 @@
 <style>
   .card {
     display: grid;
-    grid-template-columns: 65% auto;
+    grid-template-columns: 65% 35% !important;
     height: 600px;
     width: 1000px;
     border: 5px solid white;
@@ -212,13 +212,14 @@
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
     z-index: 2;
+    padding-right: 1rem;
   }
   .card1 {
     display: none;
   }
   .leftside {
     display: grid;
-    grid-template-rows: 7% auto 20%;
+    grid-template-rows: 7% 73% 20%;
   }
   .content {
     height: 100%;
@@ -262,10 +263,8 @@
     color: white;
   }
   .rightside {
-    display: grid;
   }
   .container {
-    padding: 1rem;
     height: 100%;
     display: flex;
     width: 100%;
@@ -285,10 +284,10 @@
   .searchbar {
     display: grid;
     width: 100%;
-    grid-template-columns: 80% auto;
-    grid-column-gap: 10px;
+    grid-template-columns: 80% 20%;
+    grid-column-gap: 5px;
     justify-content: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     background: rgb(233, 233, 233);
     margin-top: 5rem;
   }
@@ -462,6 +461,7 @@
     .m-footer {
       display: flex;
       height: 100%;
+      width: 100%;
       align-items: center;
       justify-content: center;
       border-top: 2px solid rgb(206, 206, 206);
